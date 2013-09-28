@@ -11,3 +11,5 @@ build - generate js src.args is file or src.
     [cljs.closure :only [build]]))
 
 (build "src/build" {:optimizations :whitespace})
+
+hello
